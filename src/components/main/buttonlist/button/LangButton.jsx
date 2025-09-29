@@ -1,12 +1,15 @@
 import './LangButton.css'
 
-const LangButton = (props) => {
+const LangButton = ({ itemProp, onToggle, isActive }) => {
 
-    const { title } = props.itemProp
+    const { title } = itemProp
 
     return (
         <>
-            <button>
+            <button
+                onClick={onToggle}
+                className={isActive ? "active" : ""}
+            >
                 {title}
             </button>
         </>
