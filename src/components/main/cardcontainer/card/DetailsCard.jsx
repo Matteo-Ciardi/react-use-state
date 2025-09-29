@@ -8,7 +8,7 @@ const DetailsCard = (props) => {
         <>
             <div className='details-card'>
                 <h3>{title}</h3>
-                <p>{description}</p>
+                <p className='card-description'>{description}</p>
             </div>
         </>
     )

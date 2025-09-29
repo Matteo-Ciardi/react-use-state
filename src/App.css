@@ -1,0 +1,21 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+h1 {
+    border-bottom: 1px solid #595959;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+h3 {
+    display: inline-block;
+    border-bottom: 1px solid #595959;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #4ECDC4;
+}

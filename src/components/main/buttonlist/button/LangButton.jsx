@@ -8,8 +8,7 @@ const LangButton = ({ itemProp, onToggle, isActive }) => {
         <>
             <button
                 onClick={onToggle}
-                className={isActive ? "active" : ""}
-            >
+                className={`lang-button ${isActive ? "active" : ""}`}>
                 {title}
             </button>
         </>

@@ -1,5 +1,9 @@
 .main-card {
     width: 40%;
-    margin: 0 auto;
-    background-color: rgb(60, 61, 83);
+    margin: 100px auto;
+    background-color: #2E2E2E;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
 }
+
